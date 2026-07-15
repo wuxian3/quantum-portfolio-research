@@ -1,0 +1,809 @@
+[
+  {
+    "instance": "DAX 100 exact-match",
+    "threshold_printed": 0.24,
+    "public_data_original_n": 85,
+    "paper_original_n": 85,
+    "public_reconstruction_kernel_n": 49,
+    "public_reconstruction_kernel_edges": 346,
+    "public_reconstruction_density": 0.2942176870748299,
+    "paper_kernel_n": 49,
+    "paper_density": 0.29,
+    "kernel_matches_paper_n": true,
+    "initial_exact_reduction_selected": 14,
+    "alpha_original": 31,
+    "alpha_first_kernel": 17,
+    "reduction_identity_ok": true,
+    "first_kernel_safe_nodes": 27,
+    "first_kernel_total_nodes": 49,
+    "first_kernel_safe_fraction": 0.5510204081632653,
+    "random_trials": 100000,
+    "random_seed": 260701037,
+    "random_successes": 40142,
+    "random_success_probability": 0.40142,
+    "random_success_ci95": [
+      0.39838569637307847,
+      0.40446187715619847
+    ],
+    "random_mean_ar": 0.9533093548387097,
+    "random_mean_ar_ci95": [
+      0.9529675203137221,
+      0.9536511893636973
+    ],
+    "random_mean_kernel_ar": 0.9148582352941176,
+    "random_mean_kernel_ar_ci95": [
+      0.914234889983846,
+      0.9154815806043891
+    ],
+    "random_mean_informer_calls": 1.65775,
+    "random_median_informer_calls": 1.0,
+    "random_p95_informer_calls": 3.0,
+    "random_probability_success_within_5_calls": 0.40124,
+    "random_trajectory_samples": [
+      [
+        49,
+        21,
+        13,
+        0
+      ],
+      [
+        49,
+        28,
+        0
+      ],
+      [
+        49,
+        21,
+        0
+      ],
+      [
+        49,
+        35,
+        13,
+        6,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        21,
+        0
+      ],
+      [
+        49,
+        33,
+        10,
+        0
+      ],
+      [
+        49,
+        33,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        34,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        24,
+        18,
+        0
+      ],
+      [
+        49,
+        21,
+        0
+      ],
+      [
+        49,
+        21,
+        18,
+        0
+      ],
+      [
+        49,
+        30,
+        27,
+        0
+      ],
+      [
+        49,
+        13,
+        0
+      ],
+      [
+        49,
+        24,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        21,
+        15,
+        12,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        30,
+        0
+      ],
+      [
+        49,
+        21,
+        0
+      ],
+      [
+        49,
+        0
+      ],
+      [
+        49,
+        0
+      ]
+    ],
+    "max_degree": {
+      "solution_size": 24,
+      "success": false,
+      "approximation_ratio": 0.7741935483870968,
+      "kernel_approximation_ratio": 0.5882352941176471,
+      "informer_calls": 1,
+      "trajectory": [
+        49,
+        0
+      ]
+    },
+    "max_reduction_gain": {
+      "solution_size": 31,
+      "success": true,
+      "approximation_ratio": 1.0,
+      "kernel_approximation_ratio": 1.0,
+      "informer_calls": 1,
+      "trajectory": [
+        49,
+        0
+      ]
+    },
+    "paper_qredumis_pmis": 0.95,
+    "paper_qredumis_mean_ar": 1.0,
+    "elapsed_seconds": 12.79495906829834,
+    "reproduction_status": "exact_match",
+    "reproduction_note": "DAX: public data + printed λ reproduce kernel nodes, edges, density and 2Q gate count.",
+    "expected_2q_gates_from_edges_p2": 692,
+    "random_success_gap_vs_paper_qredumis": 0.54858,
+    "random_kernel_ar_gap_vs_paper_qredumis": 0.08514176470588242
+  },
+  {
+    "instance": "FTSE 100 closest-match",
+    "threshold_printed": 0.320029,
+    "public_data_original_n": 89,
+    "paper_original_n": 89,
+    "public_reconstruction_kernel_n": 46,
+    "public_reconstruction_kernel_edges": 287,
+    "public_reconstruction_density": 0.2772946859903382,
+    "paper_kernel_n": 45,
+    "paper_density": 0.28,
+    "kernel_matches_paper_n": false,
+    "initial_exact_reduction_selected": 14,
+    "alpha_original": 30,
+    "alpha_first_kernel": 16,
+    "reduction_identity_ok": true,
+    "first_kernel_safe_nodes": 22,
+    "first_kernel_total_nodes": 46,
+    "first_kernel_safe_fraction": 0.4782608695652174,
+    "random_trials": 100000,
+    "random_seed": 260701037,
+    "random_successes": 39834,
+    "random_success_probability": 0.39834,
+    "random_success_ci95": [
+      0.39530971601485304,
+      0.4013780941391975
+    ],
+    "random_mean_ar": 0.9491623333333333,
+    "random_mean_ar_ci95": [
+      0.9488297783767152,
+      0.9494948882899514
+    ],
+    "random_mean_kernel_ar": 0.904679375,
+    "random_mean_kernel_ar_ci95": [
+      0.904055834456341,
+      0.9053029155436589
+    ],
+    "random_mean_informer_calls": 1.30458,
+    "random_median_informer_calls": 1.0,
+    "random_p95_informer_calls": 2.0,
+    "random_probability_success_within_5_calls": 0.39834,
+    "random_trajectory_samples": [
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        30,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        30,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        30,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        24,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        39,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ],
+      [
+        46,
+        0
+      ]
+    ],
+    "max_degree": {
+      "solution_size": 25,
+      "success": false,
+      "approximation_ratio": 0.8333333333333334,
+      "kernel_approximation_ratio": 0.6875,
+      "informer_calls": 1,
+      "trajectory": [
+        46,
+        0
+      ]
+    },
+    "max_reduction_gain": {
+      "solution_size": 30,
+      "success": true,
+      "approximation_ratio": 1.0,
+      "kernel_approximation_ratio": 1.0,
+      "informer_calls": 1,
+      "trajectory": [
+        46,
+        0
+      ]
+    },
+    "paper_qredumis_pmis": 0.7,
+    "paper_qredumis_mean_ar": 0.98,
+    "elapsed_seconds": 10.693650722503662,
+    "reproduction_status": "near_match",
+    "reproduction_note": "FTSE: public reconstruction matches reported density and 2Q gate count (287 edges -> 574 gates) but has 46 nodes, while Table 1 reports 45.",
+    "expected_2q_gates_from_edges_p2": 574,
+    "random_success_gap_vs_paper_qredumis": 0.30165999999999993,
+    "random_kernel_ar_gap_vs_paper_qredumis": 0.07532062500000003
+  },
+  {
+    "instance": "S&P 100 circuit-matched",
+    "threshold_printed": 0.242,
+    "public_data_original_n": 98,
+    "paper_original_n": 98,
+    "public_reconstruction_kernel_n": 68,
+    "public_reconstruction_kernel_edges": 457,
+    "public_reconstruction_density": 0.20061457418788411,
+    "paper_kernel_n": 68,
+    "paper_density": 0.2,
+    "kernel_matches_paper_n": true,
+    "initial_exact_reduction_selected": 10,
+    "alpha_original": 31,
+    "alpha_first_kernel": 21,
+    "reduction_identity_ok": true,
+    "first_kernel_safe_nodes": 23,
+    "first_kernel_total_nodes": 68,
+    "first_kernel_safe_fraction": 0.3382352941176471,
+    "random_trials": 100000,
+    "random_seed": 260701037,
+    "random_successes": 7274,
+    "random_success_probability": 0.07274,
+    "random_success_ci95": [
+      0.07114669462743485,
+      0.07436613014552963
+    ],
+    "random_mean_ar": 0.9032309677419355,
+    "random_mean_ar_ci95": [
+      0.9029230173980591,
+      0.9035389180858118
+    ],
+    "random_mean_kernel_ar": 0.8571504761904761,
+    "random_mean_kernel_ar_ci95": [
+      0.8566958828257064,
+      0.8576050695552458
+    ],
+    "random_mean_informer_calls": 2.728,
+    "random_median_informer_calls": 3.0,
+    "random_p95_informer_calls": 5.0,
+    "random_probability_success_within_5_calls": 0.07266,
+    "random_trajectory_samples": [
+      [
+        68,
+        58,
+        48,
+        17,
+        4,
+        0
+      ],
+      [
+        68,
+        65,
+        43,
+        0
+      ],
+      [
+        68,
+        65,
+        50,
+        41,
+        36,
+        27,
+        0
+      ],
+      [
+        68,
+        50,
+        43,
+        0
+      ],
+      [
+        68,
+        61,
+        0
+      ],
+      [
+        68,
+        49,
+        28,
+        5,
+        0
+      ],
+      [
+        68,
+        18,
+        0
+      ],
+      [
+        68,
+        0
+      ],
+      [
+        68,
+        65,
+        0
+      ],
+      [
+        68,
+        42,
+        31,
+        11,
+        0
+      ],
+      [
+        68,
+        14,
+        0
+      ],
+      [
+        68,
+        48,
+        9,
+        0
+      ],
+      [
+        68,
+        42,
+        0
+      ],
+      [
+        68,
+        0
+      ],
+      [
+        68,
+        58,
+        51,
+        35,
+        9,
+        0
+      ],
+      [
+        68,
+        45,
+        36,
+        13,
+        0
+      ],
+      [
+        68,
+        39,
+        16,
+        0
+      ],
+      [
+        68,
+        53,
+        34,
+        30,
+        26,
+        0
+      ],
+      [
+        68,
+        0
+      ],
+      [
+        68,
+        42,
+        28,
+        0
+      ],
+      [
+        68,
+        58,
+        42,
+        0
+      ],
+      [
+        68,
+        0
+      ],
+      [
+        68,
+        0
+      ],
+      [
+        68,
+        52,
+        33,
+        0
+      ],
+      [
+        68,
+        0
+      ]
+    ],
+    "max_degree": {
+      "solution_size": 26,
+      "success": false,
+      "approximation_ratio": 0.8387096774193549,
+      "kernel_approximation_ratio": 0.7619047619047619,
+      "informer_calls": 1,
+      "trajectory": [
+        68,
+        0
+      ]
+    },
+    "max_reduction_gain": {
+      "solution_size": 31,
+      "success": true,
+      "approximation_ratio": 1.0,
+      "kernel_approximation_ratio": 1.0,
+      "informer_calls": 1,
+      "trajectory": [
+        68,
+        0
+      ]
+    },
+    "paper_qredumis_pmis": 0.4,
+    "paper_qredumis_mean_ar": 0.96,
+    "elapsed_seconds": 22.73259401321411,
+    "reproduction_status": "circuit_matched_proxy",
+    "reproduction_note": "S&P: λ=0.2420 (rounds to 0.24) reproduces 68 nodes, 457 edges, density≈0.20 and 914 2Q gates.",
+    "expected_2q_gates_from_edges_p2": 914,
+    "random_success_gap_vs_paper_qredumis": 0.32726,
+    "random_kernel_ar_gap_vs_paper_qredumis": 0.10284952380952384
+  },
+  {
+    "instance": "Nikkei 225 circuit-matched",
+    "threshold_printed": 0.6184,
+    "public_data_original_n": 225,
+    "paper_original_n": 225,
+    "public_reconstruction_kernel_n": 78,
+    "public_reconstruction_kernel_edges": 508,
+    "public_reconstruction_density": 0.16916416916416915,
+    "paper_kernel_n": 78,
+    "paper_density": 0.17,
+    "kernel_matches_paper_n": true,
+    "initial_exact_reduction_selected": 73,
+    "alpha_original": 101,
+    "alpha_first_kernel": 28,
+    "reduction_identity_ok": true,
+    "first_kernel_safe_nodes": 36,
+    "first_kernel_total_nodes": 78,
+    "first_kernel_safe_fraction": 0.46153846153846156,
+    "random_trials": 100000,
+    "random_seed": 260701037,
+    "random_successes": 13165,
+    "random_success_probability": 0.13165,
+    "random_success_ci95": [
+      0.12956855383359375,
+      0.13375974510644614
+    ],
+    "random_mean_ar": 0.9709568316831683,
+    "random_mean_ar_ci95": [
+      0.9708199163984528,
+      0.9710937469678838
+    ],
+    "random_mean_kernel_ar": 0.895237142857143,
+    "random_mean_kernel_ar_ci95": [
+      0.8947432698658476,
+      0.8957310158484383
+    ],
+    "random_mean_informer_calls": 2.66931,
+    "random_median_informer_calls": 2.0,
+    "random_p95_informer_calls": 4.0,
+    "random_probability_success_within_5_calls": 0.13141,
+    "random_trajectory_samples": [
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        26,
+        21,
+        0
+      ],
+      [
+        78,
+        66,
+        60,
+        56,
+        13,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        46,
+        0
+      ],
+      [
+        78,
+        57,
+        25,
+        0
+      ],
+      [
+        78,
+        24,
+        0
+      ],
+      [
+        78,
+        31,
+        0
+      ],
+      [
+        78,
+        74,
+        12,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        12,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        43,
+        35,
+        13,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        59,
+        13,
+        0
+      ],
+      [
+        78,
+        45,
+        0
+      ],
+      [
+        78,
+        14,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        17,
+        0
+      ],
+      [
+        78,
+        74,
+        56,
+        23,
+        17,
+        0
+      ],
+      [
+        78,
+        59,
+        12,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        13,
+        0
+      ],
+      [
+        78,
+        14,
+        0
+      ]
+    ],
+    "max_degree": {
+      "solution_size": 91,
+      "success": false,
+      "approximation_ratio": 0.900990099009901,
+      "kernel_approximation_ratio": 0.6428571428571429,
+      "informer_calls": 2,
+      "trajectory": [
+        78,
+        13,
+        0
+      ]
+    },
+    "max_reduction_gain": {
+      "solution_size": 98,
+      "success": false,
+      "approximation_ratio": 0.9702970297029703,
+      "kernel_approximation_ratio": 0.8928571428571429,
+      "informer_calls": 1,
+      "trajectory": [
+        78,
+        0
+      ]
+    },
+    "paper_qredumis_pmis": 0.95,
+    "paper_qredumis_mean_ar": 0.99,
+    "elapsed_seconds": 29.672985076904297,
+    "reproduction_status": "circuit_matched_proxy",
+    "reproduction_note": "Nikkei: λ=0.6184 (rounds to 0.62) reproduces 78 nodes, 508 edges, density≈0.17 and 1016 2Q gates.",
+    "expected_2q_gates_from_edges_p2": 1016,
+    "random_success_gap_vs_paper_qredumis": 0.8183499999999999,
+    "random_kernel_ar_gap_vs_paper_qredumis": 0.09476285714285704
+  }
+]
